@@ -88,3 +88,59 @@ button {
     border-radius: 8px;
     margin-bottom: 15px;
 }
+
+.btn {
+    display: inline-block;
+    background-color: #6c3fa0;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.panier {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 40px;
+}
+
+.panier h2 {
+    color: #6c3fa0;
+    margin-bottom: 20px;
+}
+
+.panier p {
+    margin: 15px 0;
+    font-size: 17px;
+}
+
+.btn:hover,
+button:hover {
+    background-color: #4d2879;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+form button {
+    width: 120px;
+    margin-top: 10px;
+}
